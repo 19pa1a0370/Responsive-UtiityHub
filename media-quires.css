@@ -22,14 +22,14 @@
     .sub1 {
         flex-direction: column;
         text-align:center;
-        align-items: center;
+        /* align-items: center; */
     }
     .sub1 img{
         width:100%;
     }
     .sub2, .maincontent{
         flex-direction: column-reverse !important;
-        text-align: center;
+        /* text-align: center; */
         align-items: center;
     }
     .media{
@@ -85,5 +85,8 @@
     }
     .topbtn{
         margin-left:33%
+    }
+    .allwidth{
+        height:1050px;
     }
 }
